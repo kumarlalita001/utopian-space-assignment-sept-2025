@@ -12,20 +12,17 @@ import Layout from "./Layout";
 const App = () => {
   return (
     <div>
-     
       <div className="min-h-screen w-full">
         <Routes>
           <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/features" element={<Features />} />
-          <Route path="/howitworks" element={<HowItWorks />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<PageNotFound />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/features" element={<Features />} />
+            <Route path="/howitworks" element={<HowItWorks />} />
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<PageNotFound />} />
           </Route>
-          
         </Routes>
       </div>
-      
     </div>
   );
 };
