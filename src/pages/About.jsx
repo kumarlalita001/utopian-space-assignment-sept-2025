@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import spiderHeroImage from "../../assets/spiderman-hero.jpg";
+import spiderHeroImage from "../assets/spiderman-hero.jpg"
+
 
 const About = () => {
   return (
