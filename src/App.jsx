@@ -8,6 +8,7 @@ import { Header } from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import PageNotFound from "./pages/PageNotFound";
 import Layout from "./Layout";
+import AiChatBot from "./pages/AiChatBot";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/features" element={<Features />} />
             <Route path="/howitworks" element={<HowItWorks />} />
             <Route path="/about" element={<About />} />
+            <Route path="/chatAi" element={<AiChatBot />} />
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>
