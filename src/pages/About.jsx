@@ -4,7 +4,7 @@ import spiderHeroImage from "../assets/spiderman-hero.jpg"
 
 const About = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background to-secondary/20">
+    <section className=" flex items-center justify-center bg-gradient-to-b from-background to-secondary/20">
       <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
         {/* Image */}
         <motion.div
