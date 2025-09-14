@@ -9,11 +9,20 @@ import Footer from "./components/common/Footer";
 import PageNotFound from "./pages/PageNotFound";
 import Layout from "./Layout";
 import AiChatBot from "./pages/AiChatBot";
+import FloatingImage from "./utils/FloatingImage";
+import FloatingScrollImage from "./utils/FloatingSpiderImg";
+import FloatingScroll from "./utils/FloatingScroll";
 
 const App = () => {
   return (
     <div>
       <div className="min-h-screen w-full">
+        {/* <FloatingImage/> */}
+
+        {/* <FloatingScrollImage/> */}
+
+        <FloatingScroll/>
+
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
